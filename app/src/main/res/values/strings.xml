@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Math Test</string>
+    <string name="title_activity_splashscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="demo_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="app_id">ca-app-pub-2800583047661188~1292220271</string>
+
+    <string name="reward">ca-app-pub-2800583047661188/5182333556</string>
+    <string name="banner">ca-app-pub-2800583047661188/7666056935</string>
+    <string name="demo_reward">ca-app-pub-3940256099942544/5224354917</string>
+</resources>

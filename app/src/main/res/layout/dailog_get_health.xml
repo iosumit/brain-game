@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="250dp"
+    android:layout_height="300dp"
+    android:background="@drawable/dailog_rectangle"
+    android:orientation="vertical"
+    android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GAME OVER"
+        android:fontFamily="@font/pressstart_segular"
+        android:textSize="23sp"
+        android:textColor="#000"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="60dp">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ruppee"/>
+        <TextView
+            android:id="@+id/text_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_margin="5dp"
+            android:textColor="#000"
+            android:fontFamily="@font/pressstart_segular" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/button_continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:fontFamily="@font/pressstart_segular"
+        android:text=" Add Live "
+        android:textColor="#fff"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/button_resume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:fontFamily="@font/pressstart_segular"
+        android:text=" Resume "
+        android:textColor="#fff"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/button_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#000"
+        android:fontFamily="@font/pressstart_segular"
+        android:text="Quit"
+        android:textColor="#fff"
+        android:textSize="12sp" />
+</LinearLayout>
